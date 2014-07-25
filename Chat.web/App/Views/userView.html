@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/_mystyle.css" rel="stylesheet" />
+    <script>
+    function load() {
+        alert("Welcome Back!");
+    }
+    </script>
+</head>
+<body onload="load()">
+    <div id="top-nav" class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Chirper</a>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a id="user-id" class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Joshua<span class="caret"></span></a>
+                        <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                            <li><a href="#">My Profile</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a id="modal-777719" href="#modal-container-777719" role="button" onclick="onSendMessage('user-id','message-text','To')" data-toggle="modal"<i class="glyphicon glyphicon-envelope"></i>Send Message</a></li>
+
+
+
+                    <li><a id="modal-167958" onclick="onSendChirp('user-id', 'chirp-this', 'To')" href="#modal-container-167958" role="button" data-toggle="modal"<i class="glyphicon glyphicon-comment"></i>Send Chirp</a></li>
+                </ul>
+            </div>
+        </div><!-- /container -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Left column -->
+                <img border="0" id="profilepic" src="http://i58.tinypic.com/wbtcux.jpg" alt="Mr.Handsome" width="208" height="208">
+                <br /><br />
+
+                <ul class="list-unstyled">
+                    <li class="nav-header">
+                        <a href="#" data-toggle="collapse" data-target="#userMenu">
+
+                        </a>
+                        <ul class="list-unstyled collapse in" id="userMenu">
+                            <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages </a></li>
+
+                            <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Chirps</a></li>
+                            <li><a href="#" id="friends-list" data-toggle=" dropdown"><i class="glyphicon glyphicon-user"></i> Friends List</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-header">
+                        <a href="#" data-toggle="collapse" data-target="#menu3">
+
+                        </a>
+
+                        <ul class="list-unstyled collapse" id="menu3">
+                            <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /col-3 -->
+            <div class="col-md-9">
+                <a href="#"><strong><i class="glyphicon glyphicon-comment"></i> Chirper Feed</strong></a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Main Feed -->
+                        <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+                        <div class="large-6 columns">
+
+                            <!-- Feed Entry -->
+                            <div class="row">
+                                <div class="large-2 columns small-3"><img id="friends" src="http://www.teesnthings.com/productimages/superhero/batman-t-shirts/batman-cutout.jpg" /></div>
+                                <div class="large-10 columns">
+                                    <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                                    <ul class="inline-list">
+                                        <li><a href="">Reply</a></li>
+                                        <li><a href="">Share</a></li>
+                                    </ul>
+
+
+                                    <h6>2 Comments</h6>
+                                    <div class="row">
+                                        <div class="large-2 columns small-3"><img id ="friends" src="http://placehold.it/50x50&text=[img]" /></div>
+                                        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-2 columns small-3"><img id="friends" src="http://static2.wikia.nocookie.net/__cb20110901025125/superman/images/2/27/Superman-dcuo.jpg" /></div>
+                                        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Feed Entry -->
+
+                            <hr />
+
+                            <!-- Feed Entry -->
+                            <div class="row">
+                                <div class="large-2 columns small-3"><img id="friends" src="http://www.wallsave.com/wallpapers/1920x1200/the-hulk/288523/the-hulk-incredible-288523.jpg" /></div>
+                                <div class="large-10 columns">
+                                    <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                                    <ul class="inline-list">
+                                        <li><a href="">Reply</a></li>
+                                        <li><a href="">Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Feed Entry -->
+
+                            <hr />
+
+                            <!-- Feed Entry -->
+                            <div class="row">
+                                <div class="large-2 columns small-3"><img id="friends" src="http://placehold.it/80x80&text=[img]" /></div>
+                                <div class="large-10 columns">
+                                    <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                                    <ul class="inline-list">
+                                        <li><a href="">Reply</a></li>
+                                        <li><a href="">Share</a></li>
+                                    </ul>
+
+
+                                    <h6>2 Comments</h6>
+                                    <div class="row">
+                                        <div class="large-2 columns small-3"><img id ="friends" src="http://placehold.it/50x50&text=[img]" /></div>
+                                        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Feed Entry -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-container-777719" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header footer19">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><center>
+                            <h4 class="modal-title" id="myModalLabel">
+                                Send Friend A Message!!!!
+                            </h4>
+                        </center>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <div class="form-group has-success">
+                                <label class="control-label" for="message-text"></label><br />
+                                <input type="text" class="form-control" id="Tom" placeholder="To" /><br />
+                                <input type="text" id="message-text" class="form-control" placeholder="What are you thinking.......">
+                            </div>
+                        </center>
+                        <button type="button" onclick="onSendMessage('user-id','message-text','Tom')" class="btn btn-success btn-lg btn-block">Message</button>
+
+                    </div>
+                    <div class="modal-footer footer19">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div> <div class="modal fade" id="modal-container-167958" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header footer58">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><center>
+                            <h4 class="modal-title" id="myModalLabel">
+                                Send A Friendly Chirp!!!!
+                            </h4>
+                        </center>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <div class="form-group has-info">
+                                <label class="control-label" for="chirp-this"></label><br />
+                                <input type="text" class="form-control" id="Toc" placeholder="To" /><br />
+                                <input type="text" id="chirp-this" class="form-control" placeholder="What are you thinking.......">
+                            </div>
+                        </center>
+                        <button type="button" onclick="onSendChirp('user-id', 'chirp-this', 'Toc')" class="btn btn-info btn-lg btn-block">Chirp</button>
+                    </div>
+                    <div class="modal-footer footer58">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Scripts/jquery-1.9.0.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+        <script src="Scripts/_myjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+﻿body {
+    background-image: url("http://hdw.datawallpaper.com/nature/china-red-bird-camelias-hd-wallpaper-508063.jpg");
+}
+/*.stylecolumn {
+    width: 275px;
+    padding: 10px;
+    border: 10px solid #ff0000;
+    margin: 50px;
+}*/
+.modal {
+    background-image: url("http://www.freepptbackground.com/wp-content/uploads/2014/07/red-bird-feather-pattern.jpg") ;
+}
+.modal-header {
+    background-color:#ff0000;
+    font-weight: bolder;
+}
+.modal-footer {
+    background-color:#ff0000;
+   font-weight: bolder;
+  
+}
+.modal-body {
+    background-color:#000000;
+   
+    
+}
+h3 {
+    color:#000000;
+    font-weight: bolder;
+}
+h2 {
+    color:#000000;
+    font-weight: bolder;
+}
+img {
+    width:300px;
+    height:300px;
+}
+#profilepic {
+     width:200px;
+    height:200px;
+}
+#friends {
+    
+    width:100px;
+    height:100px;
+    padding: 2px 4px;
+  
+}
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 60px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 28px;
+       -moz-border-radius: 28px;
+            border-radius: 28px;
+}
+
+
+.navbar-static-top {
+  margin-bottom:20px;
+  color: #000000;
+}
+
+i {
+  font-size:16px;
+  color: #000000;
+}
+
+.nav > li > a {
+  color:#000000;
+}
+  
+/*footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#000000;
+  color: #000000;
+}*/
+
+/* count indicator near icons */
+.nav>li .count {
+  position: absolute;
+  bottom: 12px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  background: #000000;
+  color: #000000;
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* indent 2nd level */
+.list-unstyled li > ul > li {
+   margin-left:10px;
+   padding:8px;
+   color: #000000;
+}
+.list-unstyled {
+    color: #000000;
+}
+#ul {
+    color: #000000;
+}
+.footer19{
+    background-color:forestgreen
+
+
+}
+
+.footer58{
+    background-color:lightblue
+}
+.jumbotron{
+    background-color:#000000;
+    color:white;
+}
